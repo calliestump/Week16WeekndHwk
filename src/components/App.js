@@ -1,19 +1,19 @@
 import React from "react";
 import Header from "./Header";
+import Profile from "./Profile";
+import Description from "./Description";
+import Chat from "./Chat";
+import FriendSuggestions from "./FriendSuggestions";
+
 
 function App(){
-  const name = "Thato";
-  const name2 = "Haley";
-  return (
+  return ( 
     <React.Fragment>
       <Header />
-      <div class="app">
-
-        <h3>3a</h3>
-        <h3>{name} and {name2}</h3>
-        <p><em>Firebase entries not saving!</em></p>
-      </div>
-      <hr/>
+      <Profile/>
+      <Description/>
+      {/* <Chat/>
+      <FriendSuggestions/> */}
     </React.Fragment>
   );
 }

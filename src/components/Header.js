@@ -7,9 +7,8 @@ function Header(){
         <button class="Home">Home</button>
         <button class="Notifications">Notifications</button>
         <button class="Messages">Messages</button>
-        <input class="searchAndTweet" placeholder="Search"></input>
         <button class="searchAndTweet">Tweet</button>
-      
+        <input class="searchAndTweet" placeholder="Search"></input>
       <hr />
     </React.Fragment>
     
