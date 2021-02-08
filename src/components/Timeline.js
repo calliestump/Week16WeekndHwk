@@ -15,8 +15,6 @@ const masterPostList = [
 function Timeline(){
   return (
     <React.Fragment>
-      {/* <div class="whatsHappening"> */}
-      {/* </div> */}
       <div class="timelinePosts">
         <input class="whatsHappening" placeholder="Whats Happening?"></input>
         {masterPostList.map((timelinePost, index) => 
@@ -28,9 +26,6 @@ function Timeline(){
         )}
       </div>
     </React.Fragment>
-    // <React.Fragment>
-    //   <h1>Timeline</h1>
-    // </React.Fragment>
   );
 }
 

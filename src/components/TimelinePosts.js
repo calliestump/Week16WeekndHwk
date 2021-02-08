@@ -2,9 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function TimelinePosts(props){
-  // const postersName = "Thato";
-  // const post = "Integer et mi vitae lorem auctor faucibus ut at lacus. Nulla at finibus lacus.";
-  
   return (
     <React.Fragment>
       <div class="timelinePostsComponent">

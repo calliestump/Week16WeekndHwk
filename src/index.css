@@ -85,6 +85,17 @@ a:hover{
   padding: 10px;
 }
 
+.friendSuggestions {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(204, 207, 209);
+  padding: 10px;
+  display: inline-block;
+  /* position: unset; */
+  margin-left: 52%;
+  margin-top: -32%;
+  height: 10%;
+}
 /* .app {s
   padding-left: 2%;
 } */

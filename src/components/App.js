@@ -16,9 +16,8 @@ function App(){
           <Profile/>
           <Timeline/>
           <Description />
-          {/* <FriendSuggestions/> */}
+          <FriendSuggestions/>
         </div>
-          
       </div>
     </React.Fragment>
   );
