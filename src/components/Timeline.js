@@ -9,6 +9,21 @@ const masterPostList = [
   {
     postersName: "Haley",
     post: "Ut pellentesque eros eu arcu facilisis, sed fringilla diam commodo. Nam tincidunt metus a diam gravida, a finibus nisi maximus."
+  },
+  {
+    postersName: "Joey",
+    post: "Integer et mi vitae lorem auctor faucibus ut at lacus. Nulla at finibus lacus."
+  },
+  {
+    postersName: "Callie",
+    post: "Ut pellentesque eros eu arcu facilisis, sed fringilla diam commodo. Nam tincidunt metus a diam gravida, a finibus nisi maximus."
+  },{
+    postersName: "Aang",
+    post: "Integer et mi vitae lorem auctor faucibus ut at lacus. Nulla at finibus lacus."
+  },
+  {
+    postersName: "Appa",
+    post: "Ut pellentesque eros eu arcu facilisis, sed fringilla diam commodo. Nam tincidunt metus a diam gravida, a finibus nisi maximus."
   }
 ];
 

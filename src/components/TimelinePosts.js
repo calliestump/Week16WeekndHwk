@@ -5,9 +5,9 @@ function TimelinePosts(props){
   return (
     <React.Fragment>
       <div class="timelinePostsComponent">
-        <h3>{props.postersName}</h3>
+        <p><strong>{props.postersName}</strong></p>
         <p>{props.post}</p>
-        <hr />
+        
       </div>
     </React.Fragment>
   );

@@ -54,7 +54,8 @@ a:hover{
   border-color: rgb(204, 207, 209);
   padding: 10px;
   display: inline-block;
-  margin-top: -16%;
+  margin-top: -67%;
+  height: 400px;
 }
 
 .timelinePostsComponent {
@@ -93,7 +94,7 @@ a:hover{
   display: inline-block;
   /* position: unset; */
   margin-left: 52%;
-  margin-top: -32%;
+  margin-top: -78.7%;
   height: 10%;
 }
 /* .app {s

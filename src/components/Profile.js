@@ -14,7 +14,6 @@ function Profile(){
         <br /><br />
       </div>
     </React.Fragment>
-    
   );
 }
 
