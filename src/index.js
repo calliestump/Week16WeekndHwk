@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-import ChatLog from './components/ChatLog';
+// import Timeline from './components/Timeline';
 
 ReactDOM.render(
   <React.StrictMode>

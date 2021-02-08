@@ -2,18 +2,24 @@ import React from "react";
 import Header from "./Header";
 import Profile from "./Profile";
 import Description from "./Description";
-import ChatLog from "./ChatLog";
+import Timeline from "./Timeline";
 import FriendSuggestions from "./FriendSuggestions";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App(){
   return ( 
     <React.Fragment>
-      <Header />
-      <Profile/>
-      <Description/>
-      <ChatLog/>
-      {/* <FriendSuggestions/> */}
+      <div class="container">
+        <Header />
+        <div class="row">
+          <Profile/>
+          <Timeline/>
+          <Description />
+          {/* <FriendSuggestions/> */}
+        </div>
+          
+      </div>
     </React.Fragment>
   );
 }
