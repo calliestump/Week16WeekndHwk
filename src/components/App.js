@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Profile from "./Profile";
 import Description from "./Description";
-import Chat from "./Chat";
+import ChatLog from "./ChatLog";
 import FriendSuggestions from "./FriendSuggestions";
 
 
@@ -12,8 +12,8 @@ function App(){
       <Header />
       <Profile/>
       <Description/>
-      {/* <Chat/>
-      <FriendSuggestions/> */}
+      <ChatLog/>
+      {/* <FriendSuggestions/> */}
     </React.Fragment>
   );
 }
